@@ -1,5 +1,5 @@
 import mith from 'mithril'
-import { add } from '../TaskStorage'
+import { add } from './TaskContainer/TaskStorage'
 
 const data = {
     value: ''
@@ -7,7 +7,7 @@ const data = {
 
 const form = {
     view: () => {
-        return mith(`div`, [
+        return mith(`div.form`, [
 
             mith(`input`, {
                 type: 'text',

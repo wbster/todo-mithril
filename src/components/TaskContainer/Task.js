@@ -1,5 +1,5 @@
 import mith from 'mithril'
-import storage, { del } from '../TaskStorage'
+import storage, { del } from './TaskStorage'
 
 const Task = {
     view: ({ attrs }) => {
