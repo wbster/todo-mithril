@@ -1,0 +1,25 @@
+{
+  "name": "mith",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "webpack -d --watch & nodemon app.js",
+    "build": "webpack",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mithril": "^2.0.4",
+    "pug": "^3.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12"
+  }
+}
